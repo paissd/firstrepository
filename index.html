@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+<style>
+    .banner{
+        height: 100vh;
+        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('img/goat-satay-g00b7d8a1d_1920.jpg');
+        background-size:cover;
+        background-position: center;
+    }
+
+    .text-banner{
+        display: flex;
+        justify-content: center;
+        color: white;
+        align-items: center;
+        height: 100%;
+
+    }
+
+    .carousel-bg{
+        background:linear-gradient(rgba(100,100,100,100),rgba(0,0,0,0));
+    }
+
+</style>
+</head>
+
+<body>
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+              <a class="navbar-brand" href="file:///D:/portofolio%20bootstrap/index.html#";>Indonesian food</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#recent">Mostly</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Portofolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link ">Contact</a>
+                  </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+
+
+        <div id="home" class="container-fluid banner">
+            <div class="container text-banner col-6">
+                <div class="text-center">
+                <p class="fs-1"> 
+                    Indonesian Food Review for Tourism
+                </p>
+                <p class="d-none d-md-block">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur corporis quasi facilis eos voluptates laborum modi eum iste facere minima.
+                </p>
+                </div>
+            </div>
+        </div>
+
+    <!--carousel-->
+<div id="recent" class="container-fluid carousel-bg py-5" >
+    <div class="container">
+        <h2 class="text-center mb-5" style="color:white;" data-aos="fade-up">Mostly good in food</h2>
+        <div id="carouselExampleDark" class="carousel slide col-8 offset-2" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="img/artem-beliaikin-Nmrsa7XdDsc-unsplash.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>SATAI</h5>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, reiciendis?</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/listia-dayanti-8NbMWtgTT04-unsplash.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Kangkong</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit nisi atque iure natus quod minus.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/ting-tian-al9eh9QkdPA-unsplash.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Bumbuoe Baladeo</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, sequi.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+    </div>
+</div>
+    <!--end of carousel-->
+
+<footer class="container-fluid bg-dark">
+    <div class="row">
+        <div class="col-12 py-1" style="color: white;">
+            </p>@2022</p>
+        </div>
+    </div>
+</footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
